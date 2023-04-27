@@ -1,43 +1,84 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
-    <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
-    <meta
-      name="description"
-      content="Web site created using create-react-app"
-    />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
-
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
-    <title>React App</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cafe Restaurant Website</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
   </head>
   <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
+    <header>
+      <h1>Cafe Restaurant</h1>
+      <nav>
+        <ul>
+          <li><a href="#about-us">About Us</a></li>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#contact-us">Contact Us</a></li>
+        </ul>
+      </nav>
+    </header>
 
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
+    <section id="hero">
+      <h2>Welcome to Cafe Restaurant</h2>
+      <p>Discover our delicious menu, featuring fresh and locally sourced ingredients.</p>
+      <a href="#menu" class="btn">View Menu</a>
+    </section>
 
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
+    <section id="about-us">
+      <h2>About Us</h2>
+      <p>We are a small family-owned cafe restaurant, serving breakfast, lunch, and dinner. Our menu is inspired by local and seasonal ingredients, and we believe in offering high-quality food and drinks at an affordable price.</p>
+      <img src="#" alt="Cafe Interior">
+    </section>
+
+    <section id="menu">
+      <h2>Menu</h2>
+      <div class="menu-item">
+        <h3>Breakfast</h3>
+        <ul>
+          <li>Eggs Benedict - $10</li>
+          <li>Pancakes with Maple Syrup - $8</li>
+          <li>Avocado Toast - $9</li>
+        </ul>
+      </div>
+      <div class="menu-item">
+        <h3>Lunch</h3>
+        <ul>
+          <li>Grilled Chicken Sandwich - $12</li>
+          <li>Caesar Salad - $10</li>
+          <li>Tomato Soup and Grilled Cheese - $9</li>
+        </ul>
+      </div>
+      <div class="menu-item">
+        <h3>Dinner</h3>
+        <ul>
+          <li>Beef Tenderloin with Mashed Potatoes - $25</li>
+          <li>Seafood Paella - $20</li>
+          <li>Pork Chop with Apple Chutney - $18</li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="contact-us">
+      <h2>Contact Us</h2>
+      <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea>
+
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+    </section>
+
+    <footer>
+      <p>&copy; 2023 Cafe Restaurant</p>
+    </footer>
+
+    <script src="script.js"></script>
   </body>
 </html>

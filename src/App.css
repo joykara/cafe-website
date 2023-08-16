@@ -60,3 +60,12 @@ hr{
 .snaps-inline > *{
   scroll-snap-align: start;
 }
+.logo{
+  font-size: clamp(1.5rem, 2vw, 2rem);
+  font-weight: 700;
+  font-family: var(--sec-font-family);
+  color: var(--color-secondary);
+}
+.logo:hover{
+  color: var(--color-tertiary);
+}

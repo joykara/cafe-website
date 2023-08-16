@@ -12,15 +12,15 @@ const Navbar = () => {
     return (
       <div className="navbar-container">
             <div className="navbar-logo">
-                <img src={logo} alt="Coffee Connection" />
+                <h2 className='logo'>COFFEE Connection</h2>
             </div>
             <div>
                 <ul className="navbar-links">
                     <li><a href="#about-us">ABOUT US</a></li>
-                    <li><a href="/">COFFEE</a></li>
+                    <li><a href="#coffee">COFFEE</a></li>
                     <li><a href="/">MENU</a></li>
                     <li><a href="#gallery">GALLERY</a></li>
-                    <li><a href="/">CONTACT</a></li>
+                    <li><a href="footer">CONTACT</a></li>
                     <li><button type='submit'>Order NOW!</button></li>
                 </ul>
             </div>
@@ -31,10 +31,10 @@ const Navbar = () => {
                 <nav className="navbar-menu-mobile">
                     <ul>
                         <li><a href="#about-us">ABOUT US</a></li>
-                        <li><a href="/">COFFEE</a></li>
+                        <li><a href="#coffee">COFFEE</a></li>
                         <li><a href="/">MENU</a></li>
                         <li><a href="#gallery">GALLERY</a></li>
-                        <li><a href="/">CONTACT</a></li>
+                        <li><a href="footer">CONTACT</a></li>
                         <li><button type='submit'>Order NOW!</button></li>
                     </ul>
                 </nav>

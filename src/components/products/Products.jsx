@@ -11,7 +11,7 @@ import kids from '../../assets/products/chocolate.jpg';
 
 const Products = () => {
   return (
-      <div className="products-container">
+      <div className="products-container" id='coffee'>
           <div className="products-title">
               <h3>Coffee Bean Tour</h3>
               <hr />

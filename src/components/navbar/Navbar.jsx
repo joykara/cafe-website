@@ -20,7 +20,7 @@ const Navbar = () => {
                     <li><a href="#coffee">COFFEE</a></li>
                     <li><a href="/">MENU</a></li>
                     <li><a href="#gallery">GALLERY</a></li>
-                    <li><a href="footer">CONTACT</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
                     <li><button type='submit'>Order NOW!</button></li>
                 </ul>
             </div>
@@ -34,7 +34,7 @@ const Navbar = () => {
                         <li><a href="#coffee">COFFEE</a></li>
                         <li><a href="/">MENU</a></li>
                         <li><a href="#gallery">GALLERY</a></li>
-                        <li><a href="footer">CONTACT</a></li>
+                        <li><a href="#contact">CONTACT</a></li>
                         <li><button type='submit'>Order NOW!</button></li>
                     </ul>
                 </nav>
